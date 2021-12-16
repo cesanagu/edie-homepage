@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Edie</title>
+    <link rel="stylesheet" href="index.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <!-- Navbar Here -->
+    <nav class="navbar">
+      <div class="navbar__container">
+        <a href="#home" id="navbar__logo">Edie</a>
+        <div class="navbar__toggle" id="mobile-menu">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+        <ul class="navbar__menu">
+          <li class="navbar__item">
+            <a href="#home" class="navbar__links" id="home-page">Home</a>
+          </li>
+          <li class="navbar__item">
+            <a href="#services" class="navbar__links" id="category-page"
+              >Services</a
+            >
+          </li>
+          <li class="navbar__item">
+            <a href="#works" class="navbar__links" id="about-page">Our Works</a>
+          </li>
+          <li class="navbar__btn">
+            <a href="#contact" class="button" id="join-page">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <main class="main" id="home">
+      <h3>Unhappy with your website?</h3>
+      <h1>We create beautiful and fast web services</h1>
+      <img src="./assets/heroImage.jpg" alt="main-img" />
+      <h2>Story, emotion and purpose</h2>
+      <hr />
+      <p>
+        We help transform your ideas into real world applications that will
+        outperform your toughest competition and help you achieve your strategic
+        goals in short period of time.
+      </p>
+      <label for="">Want us to contact you?</label>
+      <div class="buttonIn">
+        <input type="text" placeholder="Email" id="enter" />
+        <button class="main-button" id="clear">Join</button>
+      </div>
+    </main>
+    <div class="services" id="services">
+      <h2>We offer high demand services</h2>
+      <div class="service-container">
+        <div class="service-box">
+          <i class="fas fa-pencil-alt"></i>
+          <h3>UI/UX Design</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis a
+            metus ac nulla consequat aliquet id quis turpis.
+          </p>
+          <button>Get started</button>
+        </div>
+        <div class="service-box">
+          <i class="fas fa-code"></i>
+          <h3>Front End</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis a
+            metus ac nulla consequat aliquet id quis turpis.
+          </p>
+          <button>Get started</button>
+        </div>
+        <div class="service-box">
+          <i class="fas fa-server"></i>
+          <h3>Back End</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis a
+            metus ac nulla consequat aliquet id quis turpis.
+          </p>
+          <button>Get started</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="works" id="works">
+      <h2>Good design means good business</h2>
+      <div class="work-unit">
+        <img src="./assets/smarthome.jpg" alt="smarthome" />
+        <p class="work-unit_detail">Full stack application</p>
+        <p class="work-unit_title">Smart home dashboard</p>
+      </div>
+      <div class="work-unit work-right">
+        <img src="./assets/onboard.png" alt="onboard" />
+        <p class="work-unit_detail">UX/UI design</p>
+        <p class="work-unit_title">Onboard application</p>
+      </div>
+      <div class="work-unit">
+        <img src="./assets/booking.png" alt="booking" />
+        <p class="work-unit_detail">Mobile application</p>
+        <p class="work-unit_title">Booking system</p>
+      </div>
+      <div class="work-unit work-right">
+        <img src="./assets/juice-product.png" alt="juice" />
+        <p class="work-unit_detail">Front End application</p>
+        <p class="work-unit_title">Juice product homepage</p>
+      </div>
+      <button class="work-unit_button">
+        <a href="">See more</a><i class="fas fa-long-arrow-alt-right"></i>
+      </button>
+    </div>
+    <div class="team">
+      <h3>Meet the team</h3>
+      <h2>We are chilled and a laidback team</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      <div class="team-photos">
+        <img src="./assets/person1.png" alt="karla" />
+        <img src="./assets/person2.png" alt="moris" />
+        <img src="./assets/person3.png" alt="bebe" />
+      </div>
+    </div>
+    <div class="client">
+      <div class="reference">
+        <p>
+          “Fast and outstanding resutls. Edie understands their customer’s
+          needs. They have a young and talented team.”
+        </p>
+        <div class="client-box">
+          <img src="./assets/person4.png" alt="" />
+          <div class="client-box_id">
+            <p>Carlos Tran</p>
+            <p>The Decorate Gatsby</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <div class="container">
+        <div class="left section">
+          <h2>About Us</h2>
+          <div class="content">
+            <p>
+              EDIE is a educational blog where you'll find blogs related to
+              Website Development, Technology, Tips & Hacks.
+            </p>
+            <div class="social">
+              <a href="https://multiwebpress.com"
+                ><span class="fab fa-facebook-f"></span
+              ></a>
+              <a href="https://instagram.com/multiwebpress"
+                ><span class="fab fa-instagram"></span
+              ></a>
+              <a href="https://www.youtube.com/channel/UCvB-4cVzkhvu4TkTy1hs9zA"
+                ><span class="fab fa-youtube"></span
+              ></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="center section" id="contact">
+          <h2>Contact Us</h2>
+          <div class="content">
+            <div class="place">
+              <span class="fas fa-map-marker-alt"></span>
+              <span class="text"> Guayaquil, EC</span>
+            </div>
+            <div class="phone">
+              <span class="fas fa-phone-alt"></span>
+              <span class="text"> +593 969281760</span>
+            </div>
+            <div class="email">
+              <span class="fas fa-envelope"></span>
+              <span class="text"> cesar_aguilar.parraga@hotmail.com</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <center>
+          <div>
+            <span
+              >created by <a href="https://github.com/cesanagu">cesanagu</a> -
+              devChallenges.io</span
+            >
+          </div>
+        </center>
+      </div>
+    </footer>
+    <script src="index.js"></script>
+  </body>
+</html>
